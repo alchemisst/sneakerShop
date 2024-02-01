@@ -14,7 +14,7 @@ function App() {
   const[selectedCategory,setSelectedCategory] =useState(null)
 
   //Handling Search Query
-  // const [filter,setFilter] = useState(data);
+ 
   const[query,setQuery] = useState("")
 
   

@@ -6,7 +6,8 @@ import FaceIcon from '@mui/icons-material/Face';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
-function Nav() {
+
+function Nav(props) {
   return (
    <nav>
      <div className="logo-container"> 
@@ -14,7 +15,8 @@ function Nav() {
     
     </div>
     <div className="searchbar">
-    <input type="text" className="searchbar"placeholder="What are you looking for...." />
+    <input onChange={props.changeMethod} type="text" className="searchbar" placeholder="What are you looking for...." value={props.searchQuery}/>
+   
     </div>
 
     <div className="icons"> 

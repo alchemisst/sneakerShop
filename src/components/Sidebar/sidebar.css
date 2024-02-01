@@ -1,0 +1,17 @@
+.sidebar{
+
+    margin: 10px;
+    height:100% ;
+    position: fixed;
+    width: 17rem;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+    align-items : left; 
+    border-radius: 30px;
+    padding: 10px;
+    overflow-y: auto;
+
+
+}

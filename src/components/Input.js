@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Input() {
+function Input(props) {
   return (
     <label className='sidebar-label-container'>
-    <input type="radio" name='test' />
-    <span className='checkmark'></span>All
-
+    <input onChange={props.handleChange} value={props.value} type="radio" name={props.name} />
+    <span className='checkmark' style={{backgroundColor : props.color}}> </span>{props.title}
     </label>
   )
 }

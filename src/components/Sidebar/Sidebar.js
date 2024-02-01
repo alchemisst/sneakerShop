@@ -5,12 +5,12 @@ import Price from "./Price/Price"
 
 import "./sidebar.css"
 
-function Sidebar() {
+function Sidebar(props) {
   return <>
 <section className="sidebar">
-<Category />
-<Price/>
-<Colors/>
+<Category  handleChange={props.handleChange}/>
+<Price handleChange={props.handleChange}/>
+<Colors handleChange={props.handleChange}/>
 
 </section>
  

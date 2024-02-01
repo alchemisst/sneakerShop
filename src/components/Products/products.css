@@ -11,23 +11,23 @@
 }
 .card {
     
-    border: 1px solid black;
+    border: 0.1px solid black;
     margin:10px 10px;
-    padding: 5px;
+    padding: 10px;
     cursor: pointer;
     border-radius: 20px;
+    width: 230px;
+   
 }
 .card:hover{
     transform: scale(1.1);
 }
 
 .card-img {
-    display: flex;
-    justify-content: center;
-    width: 14rem;
-    height: 12rem;
-    margin-top:1px ;
-    margin-bottom: 1rem;
+    margin-left:25px ;
+    margin-top:4px ;
+    margin-bottom: 2rem;
+    align-items: center;
 
 }
 

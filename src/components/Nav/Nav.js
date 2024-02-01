@@ -16,16 +16,15 @@ function Nav(props) {
     </div>
     <div className="searchbar">
     <input onChange={props.changeMethod} type="text" className="searchbar" placeholder="What are you looking for...." value={props.searchQuery}/>
-   
+    
     </div>
-
     <div className="icons"> 
     
-    <a href="#"> <FavoriteBorderIcon className="navicon" fontSize="large"/></a>
+    <FavoriteBorderIcon className="navicon" fontSize="large"/>
 
-    <a href="#"> <ShoppingCartOutlinedIcon className="navicon"  fontSize="large"/></a>
+  <ShoppingCartOutlinedIcon className="navicon"  fontSize="large"/>
 
-    <a href="#"> <FaceIcon className="navicon" fontSize="large"/></a>
+     <FaceIcon className="navicon" fontSize="large"/>
   
     </div>
    </nav>
